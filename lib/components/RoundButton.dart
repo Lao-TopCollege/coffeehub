@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../constrain.dart';
 
 class RoundButton extends StatelessWidget {
-  final String text;
-  final Color color, textColor, borderColor;
+  final String text;//ຂໍ້ຄວາມທີ່ຈະສະແດງເທິງປຸ່ມ
+  final Color color, textColor, borderColor;//ສີພື້ນ, ສີຂໍ້ຄວາມ, ສີເສັ້ນ
   final Function press;
   final double borderWidth;
   final double width;

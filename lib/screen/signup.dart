@@ -26,6 +26,8 @@ class Signup extends StatelessWidget {
                       SizedBox(
                         height: 50,
                       ),
+
+                      //ຂໍ້ຄວາມ
                       Text(
                         'SIGNUP',
                         style: TextStyle(
@@ -36,6 +38,8 @@ class Signup extends StatelessWidget {
                       SizedBox(
                         height: 50,
                       ),
+
+                      //ຊ່ອງພິມອີເມວ
                       RoundInput(
                         hintText: 'Your Email',
                         onChange: (value) {},
@@ -43,12 +47,16 @@ class Signup extends StatelessWidget {
                       SizedBox(
                         height: 30,
                       ),
+
+                      //ຊ່ອງພິມລະຫັດ
                       RoundPassword(
                         onChange: (value) {},
                       ),
                       SizedBox(
                         height: 30,
                       ),
+
+                      //ປຸ່ມ Sign up
                       RoundButton(
                         text: 'SIGN UP',
                         press: () {},
@@ -60,6 +68,8 @@ class Signup extends StatelessWidget {
                       SizedBox(
                         height: 30,
                       ),
+
+                      //ຂໍ້ຄວາມ
                       AccountCheck(
                         login: false,
                         press: () {
@@ -72,6 +82,8 @@ class Signup extends StatelessWidget {
                       SizedBox(
                         height: 30,
                       ),
+
+                      //ເສັ້ນແບ່ງ
                       Divider(
                         height: 20,
                         color: litePrimaryColor,
@@ -82,6 +94,8 @@ class Signup extends StatelessWidget {
                       SizedBox(
                         height: 30,
                       ),
+
+                      //ປຸ່ມເຟຊບຸກ
                       RoundButton(
                         text: 'Sign up with FACEBOOK',
                         color: facebookColor,
@@ -91,6 +105,8 @@ class Signup extends StatelessWidget {
                       SizedBox(
                         height: 20,
                       ),
+
+                      //ປຸ່ມ ກູເກີ້ລ
                       RoundButton(
                         text: 'Sign up with GOOGLE',
                         color: googleColor,
@@ -103,7 +119,8 @@ class Signup extends StatelessWidget {
                   ),
                 ),
               ),
-            )),
+            )
+          ),
       ],
     );
   }
